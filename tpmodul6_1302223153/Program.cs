@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract - [Rafli]");
+            video.IncreasePlayCount(26);
+            video.PrintVideoDetails();
         }
     }
 }
